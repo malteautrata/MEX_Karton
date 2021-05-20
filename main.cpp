@@ -58,11 +58,11 @@ int main()
         setCube(&arm_0, &arm_1, &arm_2);
         open(&arm_3);
         startPosition(&arm_0, &arm_1, &arm_2);
-
+/*
         while(1)
 		{
 			cout << "servo 0:" << arm_0.getPositionInAbs() << "---------servo 1:" << arm_1.getPositionInAbs() << "---------servo 2:" << arm_2.getPositionInAbs() << "---------servo 3:" << arm_3.getPositionInAbs() << endl;
-		}
+		}*/
         /*
 		//arm_0.setMinMaxDegree(-45,45);
         arm_0.setSpeed(80);
